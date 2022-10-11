@@ -20,7 +20,7 @@ public class EjemploRandom {
         System.out.println(
 				String.format(" - Tres enteros entre 0 y 99: %d, %d, %d", 
 						r.nextInt(100), r.nextInt(100), r.nextInt(100))
-		);
+		); 
 		System.out.println(
 				String.format(" - Tres doubles entre 0 y 99: %.4f, %.4f, %.4f", 
 						r.nextDouble(100), r.nextDouble(100), r.nextDouble(100))
